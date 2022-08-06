@@ -20,16 +20,11 @@ html {
 
 
 body {
-<<<<<<< HEAD
-    background: linear-gradient(rgba(15, 24, 34, 0.8), rgb(10, 17, 29)), url('bgwall/818999.png');
-=======
     background: linear-gradient(rgba(15, 24, 34, 0.8), rgb(10, 17, 29)), url(bgwall/818999.png);
->>>>>>> a3e56bbf39a6e1db95e9e442a2426bd76569ad3a
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
-
 }
 
 
