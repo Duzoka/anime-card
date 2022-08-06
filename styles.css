@@ -91,7 +91,7 @@ main {
 .name-profile {
     text-transform: uppercase;
     position: absolute;
-    top: 41.5%;
+    top: 42.5%;
     font-size: 1.8rem;
     letter-spacing: 0.3rem;
     cursor: pointer;
@@ -114,7 +114,11 @@ main {
     color: white;
     padding: 1rem;
     font-size: 3rem;
-    transition: 0.5 ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.card .items-list a:hover {
+    color: rgba(34, 33, 119, 0.644);
 }
 
 
