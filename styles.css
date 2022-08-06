@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+/* Resetando as cofigurações */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* background da tela */
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+body {
+    background: linear-gradient(rgba(15, 24, 34, 0.8), rgb(10, 17, 29)), url(/bgwall/818999.png);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/* configuração da tela para posicionamento do card */
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Configuração do card */ 
+.card {
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 25px;
+
+}
+
+/* Configuração do banner */
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: 200px;
+}
+
+/* Configuração do icon profile */
+
+.profile-div {
+    position: absolute;
+    top: 25%;
+    
+}
+
+.card .profile-div img {
+    width: 104.5px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Configuração do nome */
+
+.name-profile {
+    text-transform: uppercase;
+    position: absolute;
+    top: 41%;
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+}
+
+/* Configuração do hub social */
+
+.social-hub {
+    position: absolute;
+    bottom: 5%;
+}
+.card .items-list {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+} 
+
+.card .items-list a {
+    color: white;
+    padding: 1rem;
+    font-size: 3rem;
+    transition: 0.5 ease-in-out;
+}
+
+
+
+
+
