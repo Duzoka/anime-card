@@ -14,7 +14,7 @@ html {
     width: 100vw;
     height: 100vh;
     font-size: 62.5%;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -54,27 +54,37 @@ main {
 /* Configuração do banner */
 .banner {
     width: 100%;
+    background-color: #8ED0F2;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
 }
 
 .banner img {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    object-fit: contain;
     width: 100%;
-    height: 200px;
+    height: 200px; 
+     
 }
+
 
 /* Configuração do icon profile */
 
 .profile-div {
     position: absolute;
-    top: 25%;
+    top: 25%;   
+    border-radius: 50%;
     
 }
 
 .card .profile-div img {
-    width: 104.5px;
-    height: 100px;
+    width: 120px;
+    height: 110px;
+    object-fit: cover;
     border-radius: 50%;
+    
+      
+
 }
 
 /* Configuração do nome */
@@ -82,7 +92,7 @@ main {
 .name-profile {
     text-transform: uppercase;
     position: absolute;
-    top: 41%;
+    top: 41.5%;
     font-size: 1.8rem;
     letter-spacing: 0.3rem;
     cursor: pointer;
@@ -92,9 +102,10 @@ main {
 
 .social-hub {
     position: absolute;
-    bottom: 5%;
+    bottom: 4%;
 }
-.card .items-list {
+
+.card .social-hub .items-list {
     display: flex;
     list-style: none;
     gap: 5px;
