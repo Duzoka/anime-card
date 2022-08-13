@@ -97,6 +97,22 @@ main {
     cursor: pointer;
 }
 
+/* configuração da parte do texto */
+
+.txt {
+    position: absolute;
+    justify-content: center;
+    top: 50.5%;
+    font-size: 1.0rem;
+    letter-spacing: 0.2rem;
+
+}
+
+
+.txt > h2::first-letter {
+    text-transform: uppercase;
+}
+
 /* Configuração do hub social */
 
 .social-hub {
