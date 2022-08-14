@@ -20,11 +20,25 @@ html {
 
 
 body {
-    background: linear-gradient(rgba(15, 24, 34, 0.8), rgb(10, 17, 29)), url(bgwall/818999.png);
     background-position: center center;
-    background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
+}
+
+/* background com video */
+
+.videobg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1000;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    background: linear-gradient(rgba(15, 24, 34, 0.8), rgb(10, 17, 29)), url(bgwall/818999.png);
+    background-size: cover;
+
 }
 
 
