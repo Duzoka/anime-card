@@ -114,7 +114,6 @@ main {
 
 .txt {
     position: absolute;
-    justify-content: center;
     top: 50.5%;
     font-size: 1.0rem;
     letter-spacing: 0.2rem;
