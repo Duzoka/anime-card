@@ -14,6 +14,7 @@ html {
     width: 100vw;
     height: 100vh;
     font-size: 62.5%;
+    overflow-y: hidden;
     color: rgb(255, 255, 255);
     font-family: 'Nanum Gothic', sans-serif;
 }
