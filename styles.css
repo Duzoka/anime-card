@@ -83,14 +83,15 @@ main {
 /* Configuração do icon profile */
 
 .profile-div {
-    position: absolute;
-    top: 25%;   
-    border-radius: 50%;
-    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -10%;   
 }
 
 .card .profile-div img {
-    width: 120px;
+    width: 110px;
     height: 110px;
     object-fit: cover;
     border-radius: 50%;
@@ -103,8 +104,8 @@ main {
 
 .name-profile {
     text-transform: uppercase;
-    position: absolute;
-    top: 42.5%;
+    padding: 10% 0;
+    position: relative;
     font-size: 1.8rem;
     letter-spacing: 0.3rem;
     cursor: pointer;
@@ -113,8 +114,8 @@ main {
 /* configuração da parte do texto */
 
 .txt {
-    position: absolute;
-    top: 50.5%;
+    position: relative;
+    top: 0.5%;
     font-size: 1.0rem;
     letter-spacing: 0.2rem;
 
@@ -128,8 +129,8 @@ main {
 /* Configuração do hub social */
 
 .social-hub {
-    position: absolute;
-    bottom: 4%;
+    position: relative;
+    bottom: -35%;
 }
 
 .card .social-hub .items-list {
